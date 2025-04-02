@@ -21,8 +21,8 @@ async function getdata(cityname) {
     const value =  input.value;
     const result = await getdata(value);
     console.log(result)
-    cityname.innerText = `${result.location.name} , ${result.location.region}, ${result.location.country}` ;
-    citytemp.innerText = result.current.temp_c;
+    cityname.innerText = "Location - "+ `${result.location.name} , ${result.location.region}, ${result.location.country}` ;
+    citytemp.innerText = "Temp - " + result.current.temp_c;
     citytime.innerText = result.location.localtime;
 });
 
@@ -30,6 +30,7 @@ async function getdata(cityname) {
 // function of get location function , button // call gotlocation function and failedlocation function
 getlocation.addEventListener('click', async () => {
     navigator.geolocation.getCurrentPosition( gotlocation , failedlocation )
+    
 });
 
 
@@ -43,10 +44,10 @@ async function getdata2(lati ,long) {
 // function of show result of get location automatic
 async function gotlocation(position){
    const result2 = await getdata2(position.coords.latitude,position.coords.longitude)
-   console.log(result2)
-   cityname2.innerText = `${result2.location.name} , ${result2.location.region} , ${result2.location.country}`; 
-   citytemp2.innerText = result2.current.temp_c;
-   citytime2.innerText = result2.location.localtime
+   console.log(result2);
+   cityname2.innerText = "Current Location - "+`${result2.location.name} , ${result2.location.region} , ${result2.location.country}`; 
+   citytemp2.innerText = "Temp - " + result2.current.temp_c;
+   citytime2.innerText = "Date&Time - " + result2.location.localtime;
 };  
 
 
