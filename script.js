@@ -23,7 +23,7 @@ async function getdata(cityname) {
     console.log(result)
     cityname.innerText = "Location - "+ `${result.location.name} , ${result.location.region}, ${result.location.country}` ;
     citytemp.innerText = "Temp - " + result.current.temp_c;
-    citytime.innerText = result.location.localtime;
+    citytime.innerText = "Date&Time - " + result.location.localtime;
 });
 
 
