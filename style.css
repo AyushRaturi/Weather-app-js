@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 0;
-    padding: 50px;
+    padding: 100px;
     background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     transition: background 0.8s ease;
 }
