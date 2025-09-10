@@ -2,6 +2,7 @@
 
 This project is a simple weather application built by AyushRaturi in their free time. It uses HTML, CSS, and JavaScript to display weather information.
 
+![Made with JavaScript](https://img.shields.io/badge/Made_with-JavaScript-1f425f.svg) ![Docker Ready](https://img.shields.io/badge/Docker-Ready-blue.svg) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ## Summary
 
 - Displays current weather data for a specified location.
@@ -51,4 +52,13 @@ chmod +x bash.sh
 
 - If weather data doesn't load, check your internet connection.
 - Make sure your browser supports JavaScript.
-- For issues, open an issue in the [GitHub Issues](https://github.com/AyushRaturi/Weather-app-js/issues) tab.
+- Ensure all dependencies are installed.
+- Review shell or Docker logs for errors.
+
+## Contact & Support
+For questions, issues, or feature requests:
+- Open an issue on the [GitHub Issues page](https://github.com/AyushRaturi/Weather-app-js/issues)
+- Email: ayushraturi6679@gmail.com
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
