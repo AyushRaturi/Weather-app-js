@@ -1,12 +1,18 @@
 ## Weather App JS
 
-This is my little Project that I made in my free time :)
+This project is a simple weather application built by AyushRaturi in their free time. It uses HTML, CSS, and JavaScript to display weather information.
+
+## Summary
+
+- Displays current weather data for a specified location.
+- Built using HTML (40.2%), CSS (34.2%), JavaScript (25.1%), and some Shell (0.5%).
+- Designed for easy setup and use—just open the main HTML file.
 
 ### Automated Setup Steps
 
 Follow these steps to run the Weather App locally using Docker:
 
-**Step 1:** Clone this repo
+**Step 1:** Clone this Repository
 ```bash
 git clone https://github.com/AyushRaturi/Weather-app-js.git
 ```
@@ -31,5 +37,18 @@ chmod +x bash.sh
    - Build the Docker image for the weather app
    - Run the app in a Docker container mapped to port 8000
 
-**Step 5:** Enjoy the website!
+**Step 5:** Usage
+
+- Enter your city or location in the search bar (if available).
+- View the displayed weather information.
+- You may need an internet connection for live weather data.
+
+**Step 6:** Enjoy the website!
 - Open your browser and go to [http://localhost:8000](http://localhost:8000)
+
+
+**Step 7:** Troubleshooting
+
+- If weather data doesn't load, check your internet connection.
+- Make sure your browser supports JavaScript.
+- For issues, open an issue in the [GitHub Issues](https://github.com/AyushRaturi/Weather-app-js/issues) tab.
