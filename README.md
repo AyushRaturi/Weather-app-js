@@ -1,5 +1,3 @@
-Here's a summary and a step-by-step README template for your Weather-app-js project:
-
 ---
 
 # Weather-app-js
@@ -44,5 +42,3 @@ cd Weather-app-js
 - For issues, open an issue in the [GitHub Issues](https://github.com/AyushRaturi/Weather-app-js/issues) tab.
 
 ---
-
-Let me know if you want to include specific details (like API setup or a features list) or want this as a markdown file in your repo!
