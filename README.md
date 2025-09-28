@@ -61,4 +61,4 @@ For questions, issues, or feature requests:
 - Email: ayushraturi6679@gmail.com
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License 2025 - see the LICENSE file for details.
