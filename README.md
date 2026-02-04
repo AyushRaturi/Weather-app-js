@@ -1,4 +1,4 @@
-## Weather App JS
+## Weather Dashboard with API Integration
 
 This project is a simple weather application built by AyushRaturi in their free time. It uses HTML, CSS, and JavaScript to display weather information.
 
